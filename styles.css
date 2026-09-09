@@ -77,7 +77,7 @@ a:focus-visible, button:focus-visible {
    HERO — the yellow band
    ============================================================ */
 .hero {
-  background: url('images/pinkneopolitan.jpg');
+  background: url('images/pinkneapolitan.jpg');
   background-size: cover;
   background-position: center;
   border-bottom: 2px solid var(--text);
