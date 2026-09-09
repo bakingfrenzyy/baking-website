@@ -4,9 +4,9 @@
    ============================================================ */
 :root {
   --text:      #4c3136;   /* dark  brown — all of the text */
-  --bg:     #F9f0ee;   /* light pink — page background */
+  --bg:     #F9f0ee;   /* cream — page background */
   --head:   #f5c518;   /* yellow — the hero band */
-  --card:     #F9f0ee;   /* cream — the item cards */
+  --card:     #F3d4d5;   /* light pink — the item cards */
   --button:      #976e70;   /* light brown — prices and the order button */
 
   --display: "Bricolage Grotesque", system-ui, sans-serif;
@@ -77,7 +77,9 @@ a:focus-visible, button:focus-visible {
    HERO — the yellow band
    ============================================================ */
 .hero {
-  background: var(--head);
+  background: url('images/pinkneopolitan.jpg');
+  background-size: cover;
+  background-position: center;
   border-bottom: 2px solid var(--text);
   padding: 4rem 0 3.25rem;
 }
