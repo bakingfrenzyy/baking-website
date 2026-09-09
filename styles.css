@@ -4,9 +4,9 @@
    ============================================================ */
 :root {
   --text:      #4c3136;   /* dark  brown — all of the text */
-  --bg:     #Ddb0b2;   /* light pink — page background */
+  --bg:     #F9f0ee;   /* light pink — page background */
   --head:   #f5c518;   /* yellow — the hero band */
-  --card:     #F9f0ee ;   /* cream — the item cards */
+  --card:     #F9f0ee;   /* cream — the item cards */
   --button:      #976e70;   /* light brown — prices and the order button */
 
   --display: "Bricolage Grotesque", system-ui, sans-serif;
