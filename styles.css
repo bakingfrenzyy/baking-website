@@ -3,11 +3,11 @@
    Change these six values and both pages change.
    ============================================================ */
 :root {
-  --ink:      #33241a;   /* dark cocoa brown — all the text */
-  --mint:     #d8e6da;   /* pale pistachio — page background */
-  --butter:   #f5c518;   /* yellow — the hero band */
-  --card:     #fdfbf6;   /* off-white — the item cards */
-  --jam:      #b23a5b;   /* raspberry — prices and the order button */
+  --text:      #4c3136;   /* dark  brown — all of the text */
+  --bg:     #Ddb0b2;   /* light pink — page background */
+  --head:   #f5c518;   /* yellow — the hero band */
+  --card:     #F9f0ee ;   /* cream — the item cards */
+  --button:      #976e70;   /* light brown — prices and the order button */
 
   --display: "Bricolage Grotesque", system-ui, sans-serif;
   --body:    "Karla", system-ui, sans-serif;
@@ -17,8 +17,8 @@
 
 body {
   margin: 0;
-  background: var(--mint);
-  color: var(--ink);
+  background: var(--bg);
+  color: var(--text);
   font-family: var(--body);
   font-size: 1.0625rem;
   line-height: 1.6;
@@ -26,7 +26,7 @@ body {
 }
 
 a:focus-visible, button:focus-visible {
-  outline: 3px solid var(--ink);
+  outline: 3px solid var(--text);
   outline-offset: 3px;
 }
 
@@ -40,7 +40,7 @@ a:focus-visible, button:focus-visible {
    ============================================================ */
 .nav {
   background: var(--card);
-  border-bottom: 2px solid var(--ink);
+  border-bottom: 2px solid var(--text);
 }
 
 .nav .wrap {
@@ -57,28 +57,28 @@ a:focus-visible, button:focus-visible {
   font-size: 1.25rem;
   letter-spacing: -0.02em;
   text-decoration: none;
-  color: var(--ink);
+  color: var(--text);
   margin-right: auto;
 }
 
 .nav a.link {
-  color: var(--ink);
+  color: var(--text);
   text-decoration: none;
   font-weight: 600;
   padding-bottom: 2px;
   border-bottom: 2px solid transparent;
 }
-.nav a.link:hover { border-bottom-color: var(--ink); }
+.nav a.link:hover { border-bottom-color: var(--text); }
 
 /* Add class="here" to the link for the page you're on */
-.nav a.here { border-bottom-color: var(--jam); }
+.nav a.here { border-bottom-color: var(--button); }
 
 /* ============================================================
    HERO — the yellow band
    ============================================================ */
 .hero {
-  background: var(--butter);
-  border-bottom: 2px solid var(--ink);
+  background: var(--head);
+  border-bottom: 2px solid var(--text);
   padding: 4rem 0 3.25rem;
 }
 
@@ -113,7 +113,7 @@ a:focus-visible, button:focus-visible {
    ============================================================ */
 .order-btn {
   display: inline-block;
-  background: var(--jam);
+  background: var(--button);
   color: #fff;
   font-family: var(--display);
   font-weight: 600;
@@ -121,13 +121,13 @@ a:focus-visible, button:focus-visible {
   text-decoration: none;
   padding: 0.9rem 2rem;
   border-radius: 999px;
-  border: 2px solid var(--ink);
-  box-shadow: 4px 4px 0 var(--ink);
+  border: 2px solid var(--text);
+  box-shadow: 4px 4px 0 var(--text);
   transition: transform 0.12s ease, box-shadow 0.12s ease;
 }
 .order-btn:hover {
   transform: translate(2px, 2px);
-  box-shadow: 2px 2px 0 var(--ink);
+  box-shadow: 2px 2px 0 var(--text);
 }
 
 /* ============================================================
@@ -161,8 +161,8 @@ a:focus-visible, button:focus-visible {
   font-size: 1.0625rem;
   cursor: pointer;
   background: transparent;
-  color: var(--ink);
-  border: 2px solid var(--ink);
+  color: var(--text);
+  border: 2px solid var(--text);
   border-radius: 999px;
   padding: 0.55rem 1.4rem;
 }
@@ -170,7 +170,7 @@ a:focus-visible, button:focus-visible {
 /* The selected tab fills in. aria-selected is set by the script,
    so the styling and the accessibility state can never disagree. */
 .tab[aria-selected="true"] {
-  background: var(--ink);
+  background: var(--text);
   color: var(--card);
 }
 
@@ -185,7 +185,7 @@ a:focus-visible, button:focus-visible {
 
 .item {
   background: var(--card);
-  border: 2px solid var(--ink);
+  border: 2px solid var(--text);
   border-radius: 14px;
   overflow: hidden;
   display: flex;
@@ -199,7 +199,7 @@ a:focus-visible, button:focus-visible {
   background-color: #e8ddcd;
   background-size: cover;
   background-position: center;
-  border-bottom: 2px solid var(--ink);
+  border-bottom: 2px solid var(--text);
 }
 
 .item .text {
@@ -227,7 +227,7 @@ a:focus-visible, button:focus-visible {
   font-family: var(--display);
   font-weight: 800;
   font-size: 1.375rem;
-  color: var(--jam);
+  color: var(--button);
 }
 
 /* When something runs out: <article class="item sold-out"> */
@@ -237,7 +237,7 @@ a:focus-visible, button:focus-visible {
   font-family: var(--body);
   font-weight: 400;
   font-size: 0.875rem;
-  color: var(--ink);
+  color: var(--text);
 }
 
 /* Small note above the seasonal list */
@@ -264,7 +264,7 @@ a:focus-visible, button:focus-visible {
 .steps li {
   counter-increment: step;
   padding-top: 0.75rem;
-  border-top: 2px solid var(--ink);
+  border-top: 2px solid var(--text);
 }
 
 .steps li::before {
@@ -288,7 +288,7 @@ a:focus-visible, button:focus-visible {
 /* Wrapper that keeps the Google Form from overflowing on phones */
 .formbox {
   background: var(--card);
-  border: 2px solid var(--ink);
+  border: 2px solid var(--text);
   border-radius: 14px;
   padding: 0.5rem;
   max-width: 680px;
@@ -303,11 +303,11 @@ a:focus-visible, button:focus-visible {
    FOOTER
    ============================================================ */
 footer {
-  border-top: 2px solid var(--ink);
+  border-top: 2px solid var(--text);
   padding: 2rem 0 3rem;
   font-size: 0.9375rem;
 }
-footer a { color: var(--ink); }
+footer a { color: var(--text); }
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
