@@ -162,7 +162,9 @@ def build():
         print(f"  {category}: {len(matching)} items")
 
     page = page.replace("{{SEASON_NOTE}}", html.escape(SEASON_NOTE))
-    page = page.replace("{{BUILD_DATE}}", date.today().strftime("%d %B %Y"))
+    from zoneinfo import ZoneInfo
+    from datetime import datetime
+    page = page.replace("{{BUILD_DATE}}", datetime.now(ZoneInfo("America/Los_Angeles")).strftime("%d %B %Y"))
 
     OUTPUT_FILE.write_text(page, encoding="utf-8")
 
