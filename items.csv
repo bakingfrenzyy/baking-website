@@ -1,6 +1,6 @@
 name,description,price,category,photo,available
 Chocolate Chip Cookies,"A classic staple in every household. Infused with the toasty aromas of browned butter.",$2.00 per cookie,allyear,cookies.jpg,yes
-Brownies (selection varies),"A classic staple in every household. Infused with the toasty aromas of browned butter.",$20 - reg|$25 - s'mores/oreos|$35 - dubai chocolate,allyear,brownies.jpg,yes
+Brownies (selection varies),"A classic staple in every household. Infused with the toasty aromas of browned butter.",$20 - regular|$25 - s'mores/oreos|$35 - dubai chocolate,allyear,brownies.jpg,yes
 Dubai Chewy Cookies,"A viral sensation. A pull-apart, melt-in-your-mouth, array of pistachio and marshmallow.",$5.00 per cookie|$4.00 per cookie for 3+ ordered,allyear,dubai.jpg,yes
 Custom Cookies,"Please inquire.",Price varies,allyear,customcookies.jpg,yes
 Custom Muffins,"Please inquire.",Price varies,allyear,custommuffins.jpg,yes
