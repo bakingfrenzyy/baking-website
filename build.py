@@ -22,7 +22,7 @@ from pathlib import Path
 CURRENCY = "$"
 
 # Shown above the seasonal list. Update when the season turns.
-SEASON_NOTE = "Baking through October and November."
+SEASON_NOTE = "Available until November 21st."
 
 # Which CSV categories go in which tab.
 # The key is what you type in the category column.
