@@ -1,9 +1,8 @@
 name,description,price,category,photo,available
-Brown butter chocolate chip,"Soft in the middle, crisp at the edge, flaky salt on top. The one that sells out first.",2.50,allyear,cookies.jpg,yes
-Fudge brownie squares,"Dense and properly fudgy, not cakey. Cut thick.",3.00,allyear,brownies.jpg,yes
-Banana bread slice,"Made with bananas well past the point anyone would eat them, which is the point.",2.00,allyear,banana-bread.jpg,yes
-Cinnamon rolls,"Iced while still warm. Order ahead, we only make twelve.",4.00,allyear,cinnamon-rolls.jpg,yes
-Lemon bars,"Sharp lemon curd on shortbread, dusted with icing sugar.",3.00,allyear,lemon-bars.jpg,no
-Pumpkin spice loaf,"Real roasted pumpkin, cream cheese glaze. By the slice or whole.",2.50,seasonal,pumpkin-loaf.jpg,yes
-Apple hand pies,"Bramleys from the tree behind the science block, cinnamon, sugar crust.",3.50,seasonal,apple-hand-pies.jpg,yes
-Gingerbread people,"Back in December. Iced buttons, slightly wonky faces.",2.00,seasonal,gingerbread.jpg,no
+Chocolate Chip Cookies,"A classic staple in every household. Infused with the toasty aromas of browned butter.",2.00,allyear,cookies.jpg,yes
+S'mores Cookies,"Graham cracker base, milk chocolate, torched marshmallow.",$5.00 per cookie|$4.00 per cookie for 3+ ordered,allyear,smores.jpg,yes
+Custom Cakes,"Six inch, iced and decorated. Order a week ahead.",$20 - reg|$25 - s'mores/oreos|$35 - dubai chocolate,allyear,cakes.jpg,yes
+Coffee Cake Muffins,"The ultimate comfort food, topped with iced cinnamon streusel.",2.60,allyear,muffins.jpg,yes
+Maple-Infused Chocolate Chip Cookies,"An autumnal twist on a classic chocolate chip cookie.",2.25,seasonal,maple-cookies.jpg,yes
+Pumpkin Spice Loaf,"Real roasted pumpkin, cream cheese glaze.",$2.50 per slice|$14.00 whole loaf,seasonal,pumpkin-loaf.jpg,yes
+Gingerbread People,"Back in December. Iced buttons, slightly wonky faces.",2.00,seasonal,gingerbread.jpg,no
