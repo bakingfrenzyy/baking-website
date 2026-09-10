@@ -5,7 +5,6 @@
 :root {
   --text:      #4c3136;   /* dark  brown — all of the text */
   --bg:     #F9f0ee;   /* cream — page background */
-  --head:   #f5c518;   /* yellow — the hero band */
   --card:     #F3d4d5;   /* light pink — the item cards */
   --button:      #976e70;   /* light brown — prices and the order button */
 
@@ -74,10 +73,10 @@ a:focus-visible, button:focus-visible {
 .nav a.here { border-bottom-color: var(--button); }
 
 /* ============================================================
-   HERO — the yellow band
+   HERO — the header
    ============================================================ */
 .hero {
-  background: url('images/pinkneapolitan.jpg');
+  background: url('images/pinkneapolitan.png');
   background-size: cover;
   background-position: center;
   border-bottom: 2px solid var(--text);
