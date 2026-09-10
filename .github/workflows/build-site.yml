@@ -1,0 +1,35 @@
+name: Build the menu
+
+on:
+  push:
+    paths:
+      - "items.csv"
+      - "build.py"
+      - "templates/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run build.py
+        run: python build.py
+
+      - name: Commit index.html if it changed
+        run: |
+          git config user.name "Menu builder"
+          git config user.email "actions@github.com"
+          git add index.html
+          git diff --staged --quiet || git commit -m "Rebuild menu from items.csv"
+          git push
