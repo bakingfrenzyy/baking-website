@@ -76,7 +76,7 @@ a:focus-visible, button:focus-visible {
    HERO — the header
    ============================================================ */
 .hero {
-  background: url('images/pinkneapolitan.png');
+  background: url('pinkneapolitan.png');
   background-size: cover;
   background-position: center;
   border-bottom: 2px solid var(--text);
