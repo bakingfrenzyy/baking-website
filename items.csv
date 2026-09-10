@@ -1,8 +1,10 @@
 name,description,price,category,photo,available
-Chocolate Chip Cookies,"A classic staple in every household. Infused with the toasty aromas of browned butter.",2.00,allyear,cookies.jpg,yes
-S'mores Cookies,"Graham cracker base, milk chocolate, torched marshmallow.",$5.00 per cookie|$4.00 per cookie for 3+ ordered,allyear,smores.jpg,yes
-Custom Cakes,"Six inch, iced and decorated. Order a week ahead.",$20 - reg|$25 - s'mores/oreos|$35 - dubai chocolate,allyear,cakes.jpg,yes
-Coffee Cake Muffins,"The ultimate comfort food, topped with iced cinnamon streusel.",2.60,allyear,muffins.jpg,yes
-Maple-Infused Chocolate Chip Cookies,"An autumnal twist on a classic chocolate chip cookie.",2.25,seasonal,maple-cookies.jpg,yes
-Pumpkin Spice Loaf,"Real roasted pumpkin, cream cheese glaze.",$2.50 per slice|$14.00 whole loaf,seasonal,pumpkin-loaf.jpg,yes
-Gingerbread People,"Back in December. Iced buttons, slightly wonky faces.",2.00,seasonal,gingerbread.jpg,no
+Chocolate Chip Cookies,"A classic staple in every household. Infused with the toasty aromas of browned butter.",2.00 per cookie,allyear,cookies.jpg,yes
+Brownies (selection varies),"A classic staple in every household. Infused with the toasty aromas of browned butter.",20 - reg|25 - s'mores/oreos|30 dubai chocolate,allyear,brownies.jpg,yes
+Dubai Chewy Cookies,"A viral sensation. A pull-apart, melt-in-your-mouth, array of pistachio and marshmallow.",5.00 per cookie|4.00 per cookie for 3+ ordered,allyear,dubai.jpg,yes
+Custom Cookies,"Please inquire.",Price varies,allyear,customcookies.jpg,yes
+Custom Muffins,"Please inquire.",Price varies,allyear,custommuffins.jpg,yes
+Coffee Cake Muffins,"The ultimate comfort food, topped with iced cinnamon streusel.",2.60 per muffin,seasonal,coffeemuffins.jpg,yes
+Apple Crumble Muffins,"Warm and cozy, topped with iced cinnamon streusel.",3.20 per muffin,seasonal,applemuffins.jpg,yes
+Pumpkin Pie Cookies,"Pumpkin pie in a cookie.",2.80 per cookie,seasonal,pumpkincookies.jpg,yes
+Maple-Infused Chocolate Chip Cookies,"An autumnal twist on a classic chocolate chip cookie.",2.25 per cookie,seasonal,maplecookies.jpg,yes
