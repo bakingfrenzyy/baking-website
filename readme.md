@@ -1,4 +1,4 @@
-# Sugar & Salt Bakery site
+# Baking Frenzy Site
 
 A small static site for the bakery. The menu page is generated from a
 spreadsheet by a Python script, so adding a bake means editing one row.
