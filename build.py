@@ -35,7 +35,7 @@ CATEGORIES = {
 # no matter which folder you run it from.
 HERE = Path(__file__).parent
 CSV_FILE = HERE / "items.csv"
-TEMPLATE_FILE = HERE / "templates" / "index.template.html"
+TEMPLATE_FILE = HERE / "index.template.html"
 OUTPUT_FILE = HERE / "index.html"
 PHOTO_FOLDER = "images"
 
